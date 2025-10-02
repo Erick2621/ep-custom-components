@@ -1,7 +1,7 @@
 {
   "name": "ep-custom-components",
   "private": false,
-  "version": "0.0.1-rc2",
+  "version": "0.0.1-rc3",
   "type": "module",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -26,8 +26,8 @@
     ]
   },
   "peerDependencies": {
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react": "^17.0.0 || ^18.0.0 || ^19.1.1",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.1.1"
   },
   "scripts": {
     "dev": "npm run storybook",
